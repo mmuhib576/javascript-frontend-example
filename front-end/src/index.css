@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Submit_btn{
+  font-weight: 400;
+  font-size: 15px;
+  color: #f19c4b;
+  background-color: white;
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 25px;
+  border: solid 2px rgb(100, 100, 100);
+}
+.authentication-model{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  padding: 40px;
+  margin-right: auto;
+  max-width: 360px;
+  height: 300px;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 9px;
+}
+.authentication-model .close-btn{
+  float: right;
+}
+.RediSignup{
+  margin-top: 10px;
+}
+
+.Deletebtn{
+  margin-top: 10px;
+  background-color: red;
+}
+
+.Submit_btn{
+  font-weight: 400;
+  font-size: 15px;
+  color: #f19c4b;
+  background-color: white;
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 25px;
+  border: solid 2px rgb(100, 100, 100);
+}
+.Submit_btn:hover{
+  color: #f8851a;
+  background-color: rgb(226, 223, 223);
+}
+.authentication-model form{
+  display: flex;
+  flex-direction: column;
+}
+.authentication-model input[type=password],
+.authentication-model input[type=email],
+.authentication-model input[type=text]
+{
+  font-size: 15px;
+  margin: 7px;
+  padding: 7px;
+}
+.homepage{
+  text-align: center;
+}
